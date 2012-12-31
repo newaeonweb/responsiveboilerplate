@@ -29,7 +29,7 @@ Very easy to use and understand, but a minimum knowledge of HTML & CSS must be r
 Follow the steps...
 
 - We <b>strongly</b> recommend the use of the index.html file included in the download package.
-- So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like this example:
+- So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like the example:
 
 <pre>
 
@@ -55,6 +55,6 @@ Please welcome. We do not claim to be the best, we are just trying to help an op
 <h1>More Infos</h1>
 
 
-www.responsivebolilerplate.com
+www.responsiveboilerplate.com
 
 Developer: feiochc@gmail.com
