@@ -31,14 +31,15 @@ Follow the steps...
 - We <b>strongly</b> recommend the use of the index.html file included in the download package.
 - So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like the example:
 
-<pre>
-
-<div class="container">
-	<div class="col6"></div>
-	<div class="col6"></div>
+<div class="highlight">
+  <pre>
+	<div class="container">
+		<div class="col6"></div>
+		<div class="col6"></div>
+	</div>
+  </pre>
 </div>
 
-</pre>
 * This code on render display a side by side column, ie your screen splited in two with equal value.
 
 - You can play with your columns to fit your needs and adjust to your own design.
