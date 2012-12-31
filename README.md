@@ -9,15 +9,15 @@ A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, 
 <h1>Features</h1>
 
 
-Cross Browser.
+<h5>Cross Browser.</h5>
 
 Adapt to any screen size, including fluid media; images and video and pre-configured with 4 breakpoints, just to make your job easier.
 
-Sublime text Snippets.
+<h5>Sublime text Snippets.</h5>
 
 Include in the package: PSD Template, HTML5 starting point file for fast development and two Sublime Text snippets for CSS grid and HTML file.
 
-Mobile AeonNav Optimized.</h1>
+<h5>Mobile AeonNav Optimized.</h5>
 
 One line of Javascript turns your nav in a beautfull mobile optmized menu.
 Using HEAD.js to load others libs.
@@ -60,3 +60,5 @@ Please welcome. We do not claim to be the best, we are just trying to help an op
 www.responsiveboilerplate.com
 
 Developer: feiochc@gmail.com
+Twitter: <a href="https://twitter.com/@newaeonweb">@newaeonweb</a>
+Google Plus: <a href="https://plus.google.com/102311871192373469721/posts">Fernando Monteiro</a>
