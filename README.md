@@ -9,9 +9,9 @@ A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, 
 <h1>Features</h1>
 
 
-Using { Less } CSS.
+Cross Browser.
 
-Grid system in three diferent ways: LESS, CSS and CSS minified. pre-configured with 4 breakpoints, just to make your job easier.
+Adapt to any screen size, including fluid media; images and video and pre-configured with 4 breakpoints, just to make your job easier.
 
 Sublime text Snippets.
 
