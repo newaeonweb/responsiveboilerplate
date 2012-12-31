@@ -29,7 +29,21 @@ Very easy to use and understand, but a minimum knowledge of HTML & CSS must be r
 Follow the steps...
 
 - We <b>strongly</b> recommend the use of the index.html file included in the download package.
+- So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like this example:
 
+<pre>
+
+<div class="container">
+	<div class="col6"></div>
+	<div class="col6"></div>
+</div>
+
+</pre>
+* This code on render display a side by side column, ie your screen splited in two with equal value.
+
+- You can play with your columns to fit your needs and adjust to your own design.
+
+<code></code>
 
 ------------------------------------------------------------------------
 <h1>Contribute</h1>
