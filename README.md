@@ -1,4 +1,4 @@
-Responsive Boilerplate
+<h1>Responsive Boilerplate<h1>
 A starting point to responsive web design!
 
 =======================================================================
