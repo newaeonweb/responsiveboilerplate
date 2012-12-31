@@ -40,11 +40,12 @@ Follow the steps...
   </pre>
 
 
-* This code on render display a side by side column, ie your screen splited in two with equal value.
+* This code on render display a side by side column, ie your screen with two equal column.
 
 - You can play with your columns to fit your needs and adjust to your own design.
 
-<code></code>
+- Visit our <a href="">screencast</a> page (coming soon)
+
 
 ------------------------------------------------------------------------
 <h1>Contribute</h1>
