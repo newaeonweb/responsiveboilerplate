@@ -1,4 +1,4 @@
-<h1>Responsive Boilerplate<h1>
+<h1>Responsive Boilerplate</h1>
 A starting point to responsive web design!
 
 =======================================================================
@@ -6,7 +6,7 @@ A starting point to responsive web design!
 A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, made with only one container and 12 columns. It`s very easy to use and understand, pre-packed with some extra css helpers for mobile devices.
 
 -----------------------------------------------------------------------
-FEATURES
+<h1>FEATURES</h1>
 
 
 Using { Less } CSS.
@@ -23,13 +23,15 @@ One line of Javascript turns your nav in a beautfull mobile optmized menu.
 Using HEAD.js to load others libs.
 
 ------------------------------------------------------------------------
-CONTRIBUTE
+<h1>CONTRIBUTE</h1>
 
 Please welcome. We do not claim to be the best, we are just trying to help an open web and free, so feel free to test, send bugs, suggestions and contribute with code to improve this tool
 
 
 ------------------------------------------------------------------------
-MORE INFOS
+<h1>MORE INFOS</h1>
 
 
 www.responsivebolilerplate.com
+
+Developer: feiochc@gmail.com
