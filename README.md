@@ -40,7 +40,7 @@ Follow the steps...
   </pre>
 
 
-* This code on render display a side by side column, ie your screen with two equal column.
+<i>* This code on render display a side by side column, ie your screen with two equal column.</i>
 
 - You can play with your columns to fit your needs and adjust to your own design.
 
