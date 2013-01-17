@@ -44,12 +44,12 @@
 	width: 92%;
 	margin-left: 4%;
 	margin-right: 4%;
+	display: inline-block;
 }
 
 /* #Colummns
 ================================================================================================= */
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
-	display:inline;
 	float: left;
 	position: relative;
 	margin-left: 1%;
@@ -58,18 +58,18 @@
 
 /* #Grind 12 Colummns
 ================================================================================================= */
-.container .col1 {width:6.333%;}
-.container .col2 {width:14.667%;}
-.container .col3 {width:23.0%;}
-.container .col4 {width:31.333%;}
-.container .col5 {width:39.667%;}
-.container .col6 {width:48.0%;}
-.container .col7 {width:56.333%;}
-.container .col8 {width:64.667%;}
-.container .col9 {width:73.0%;}
-.container .col10 {width:81.333%;}
-.container .col11 {width:89.667%;}
-.container .col12 {width:98.0%;}
+.col1 {width:6.333%;}
+.col2 {width:14.667%;}
+.col3 {width:23.0%;}
+.col4 {width:31.333%;}
+.col5 {width:39.667%;}
+.col6 {width:48.0%;}
+.col7 {width:56.333%;}
+.col8 {width:64.667%;}
+.col9 {width:73.0%;}
+.col10 {width:81.333%;}
+.col11 {width:89.667%;}
+.col12 {width:98.0%;}
 
 /* #Clear Margin left and right
 ================================================================================================= */
@@ -140,16 +140,21 @@ nav select {display: none;}
 	}
 	
 	.container {
-	width: 98%;
+	width: 100%;
 	min-width: 0;
 	margin-left: 0px;
 	margin-right: 0px;
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 0px;
+	padding-right: 0px;
 	}
 	
-	.col1, .container .col2,  .container .col3,  .container .col4,  .container .col5,  .container .col6,  .container .col7,  .container .col8, .container .col9, .container .col10, .container .col11, .container .col12 {
-	width: 98%;
+	.col1, .col2,  .col3,  .col4,  .col5,  .col6,  .col7,  .col8, .col9, .col10, .col11, .col12 {
+	width: auto;
+	float: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	}
 
 }
@@ -170,8 +175,7 @@ nav select {display: none;}
 
 @media screen and (max-width: 1024px) {
  /* Add your styles for devices with a maximum width of 1024 */
-}
-]]></content>
+}]]></content>
 	<tabTrigger>css</tabTrigger>
 	<scope>source.css</scope>
 </snippet>
