@@ -40,6 +40,11 @@
 
 /* #Containers
 ================================================================================================= */
+.container_fixed { /*You can adjust the width here to fit your design. i.e: 980px, 1280px if you wnat a fixed container*/
+	width:1024px;
+	margin: 0 auto;
+	display: table;
+}
 .container {
 	width: 92%;
 	margin-left: 4%;
@@ -139,7 +144,7 @@ nav select {display: none;}
 	-ms-text-size-adjust: none;
 	}
 	
-	.container {
+	.container_fixed,.container {
 	width: 100%;
 	min-width: 0;
 	margin-left: 0px;
@@ -175,6 +180,14 @@ nav select {display: none;}
 
 @media screen and (max-width: 1024px) {
  /* Add your styles for devices with a maximum width of 1024 */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+   /* Add your styles for devices with a maximum width of 1024 */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  /* Add your styles for devices with a maximum width of 768 */
 }]]></content>
 	<tabTrigger>css</tabTrigger>
 	<scope>source.css</scope>
