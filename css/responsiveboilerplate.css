@@ -91,7 +91,7 @@ img {height: auto;}
 
 /* Links (No outline borders) 
 ============================================================================================== */
-a:focus, a:hover, a:active {outline: 0;}
+a:hover, a:active {outline: 0;}
 
 /* Responsive Navigation Basic Style 
 ----------------------------------------------------------------------------------------------------*/
