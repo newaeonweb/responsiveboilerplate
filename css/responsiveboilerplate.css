@@ -39,17 +39,10 @@
 
 /* #Containers
 ================================================================================================= */
-.container_fixed { /*You can adjust the width here to fit your design. i.e: 980px, 1280px if you wnat a fixed container*/
-	width:1024px;
-	margin: 0 auto;
-	display: table;
-}
-
 .container {
 	width: 92%;
 	margin-left: 4%;
 	margin-right: 4%;
-	display: inline-block;
 }
 
 /* #Colummns
@@ -144,7 +137,7 @@ nav select {display: none;}
 	-ms-text-size-adjust: none;
 	}
 	
-	.container_fixed,.container {
+	.container {
 	width: 100%;
 	min-width: 0;
 	margin-left: 0px;
