@@ -32,10 +32,11 @@ Follow the steps...
 - So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like the example:
 
 
-  <pre>
-	<code>
-		&lt;div class=&quot;container&quot;&gt;&lt;!--Container Class to centralize your grid--&gt;
-	&lt;div class=&quot;content&quot;&gt;&lt;!--Content Class to align the columns--&gt;
+<pre><code>
+&lt;!--Container Class to centralize your grid--&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;!--Content Class to align the columns--&gt;
+	&lt;div class=&quot;content&quot;&gt;
 		&lt;div class=&quot;col6&quot;&gt;&lt;/div&gt;
 		&lt;div class=&quot;col6&quot;&gt;&lt;/div&gt;
 	&lt;/div&gt;
@@ -45,8 +46,7 @@ Follow the steps...
 		&lt;div class=&quot;col4&quot;&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
-	</code>	
-  </pre>
+</code></pre>
 
 <b>Note:</b>
 <i>* This code on render display a side by side column, ie your screen with two equal column on top, and three columns on bottom.</i>
