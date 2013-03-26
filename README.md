@@ -33,14 +33,23 @@ Follow the steps...
 
 
   <pre>
-	&lt;div class="container"&gt;
-		&lt;div class="col6"&gt;&lt;/div&gt;
-		&lt;div class="col6"&gt;&lt;/div&gt;
+	<code>
+		&lt;div class=&quot;container&quot;&gt;&lt;!--Container Class to centralize your grid--&gt;
+	&lt;div class=&quot;content&quot;&gt;&lt;!--Content Class to align the columns--&gt;
+		&lt;div class=&quot;col6&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;col6&quot;&gt;&lt;/div&gt;
 	&lt;/div&gt;
+	&lt;div class=&quot;content&quot;&gt;
+		&lt;div class=&quot;col4&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;col4&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;col4&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+	</code>	
   </pre>
 
-
-<i>* This code on render display a side by side column, ie your screen with two equal column.</i>
+<b>Note:</b>
+<i>* This code on render display a side by side column, ie your screen with two equal column on top, and three columns on bottom.</i>
 
 - You can play with your columns to fit your needs and adjust to your own design.
 
