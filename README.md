@@ -23,6 +23,13 @@ One line of Javascript turns your nav in a beautfull mobile optmized menu.
 Using HEAD.js to load others libs.
 
 ------------------------------------------------------------------------
+<h1>Sublime Text Package</h1>
+
+Available a set of Sublime Text snippets on <a href="https://github.com/newaeonweb/ResponsiveBoilerplateSnippets">Github</a>.
+
+
+
+------------------------------------------------------------------------
 <h1>How to use</h1>
 
 Very easy to use and understand, but a minimum knowledge of HTML & CSS must be required.
