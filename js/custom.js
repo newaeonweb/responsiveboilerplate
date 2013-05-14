@@ -1,4 +1,4 @@
-/*	Responsive Boilerplate V.2.1.
+/*	Responsive Boilerplate V.2.3.
 	  Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
 	  Licensed under MIT license, http://opensource.org/licenses/mit-license.php
 	
@@ -43,42 +43,34 @@
     } );
   }
 })( this );
-//Simple function to a responsive menu
-   $(function() {
-      // Create the dropdown base
-      $("<select />").appendTo("nav");
-      // Default option "-- Table of Content-- Change this valeu to fit your needs"
-      $("<option />", {
-         "selected": "selected",
-         "value"   : "",
-         "text"    : "-- Table of Content --"
-      }).appendTo("nav select");
-      // Populate dropdown with menu items
-      $("nav a").each(function() {
-       var el = $(this);
-       $("<option />", {
-           "value"   : el.attr("href"),
-           "text"    : el.text()
-       }).appendTo("nav select");
-      });
-   
-   
-      $("nav select").change(function() {
-        window.location = $(this).find("option:selected").val();
-      });
-   });
 
+
+
+//Simple function to a responsive menu
+(function() {
+   $("#nav").before('<div id="menu"> <span>&#9776</span> </div>');
+
+    $("#menu").on('click', function(){
+        $("#nav").toggle();
+    });
+
+    $(window).resize(function(){ 
+      if(window.innerWidth > 768) { 
+        $("#nav").removeAttr("style");
+        } 
+    });
+})( this );
 //apply to any markap with nav like this:
 /*
-<nav> 
-    <ul> 
+ 
+    <ul id="nav"> 
       <li><a href="#">Link</a></li> 
       <li><a href="#">Link</a></li> 
       <li><a href="#">Link</a></li> 
       <li><a href="#">Link</a></li> 
       <li><a href="#">Link</a></li> 
     </ul>
-</nav>
+
 
 */
 

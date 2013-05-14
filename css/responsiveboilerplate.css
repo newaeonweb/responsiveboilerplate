@@ -1,5 +1,5 @@
 /*
-	Responsive Boilerplate V.2.2
+	Responsive Boilerplate V.2.3
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
 	Licensed under MIT license, http://opensource.org/licenses/mit-license.php
 
@@ -185,26 +185,32 @@ a:active {
 /* Responsive Navigation Basic Style 
 ===============================================================================================*/
 
-nav ul {
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
-  display: inline-block;
-}
-nav select {
+#menu {
   display: none;
 }
-/*You can adjust the width size when you want to resize the menu*/
-
-@media (max-width: 480px) {
-  nav ul {
+@media screen and (max-width: 768px) {
+  #menu {
+    display: block;
+    background: #dddddd;
+    font-size: 1.35em;
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+  }
+  #menu span {
+    margin-right: 10px;
+  }
+  #nav {
     display: none;
   }
-  nav select {
-    display: inline-block;
+  ul {
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #dddddd;
+  }
+  li {
+    width: 100%;
+    display: block;
   }
 }
 /* Grid Columns
