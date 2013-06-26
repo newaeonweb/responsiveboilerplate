@@ -384,11 +384,10 @@ a:active {
     font-size: 1.0em;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
-    padding-left: 10px;
-    padding-right: 10px;
   }
   .container {
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .content {
     width: 100%;
