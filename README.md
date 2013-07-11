@@ -6,21 +6,20 @@ A starting point to responsive web design!
 A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, made with only one container and 12 columns. It`s very easy to use and understand, pre-packed with some extra css helpers for mobile devices.
 
 -----------------------------------------------------------------------
-<h1>Features</h1>
+<h1>Features Version 2.3.1</h1>
 
 
-<h5>Cross Browser.</h5>
+<h5>Cross Browser | Cross Device!</h5>
 
 Adapt to any screen size, including fluid media; images and video and pre-configured with 4 breakpoints, just to make your job easier.
 
-<h5>Sublime text Snippets.</h5>
+<h5>Sublime text Snippets | Grunt.js Package</h5>
 
-Include in the package: PSD Template, HTML5 starting point file for fast development and two Sublime Text snippets for CSS grid and HTML file.
+Include in the package: PSD Template, HTML5 starting point file for fast development, a demo example. Also is available a Sublime Text package with a complete pack of snippets as you can read below.
 
-<h5>Mobile AeonNav Optimized.</h5>
+<h5>Low Learning Curve.</h5>
 
-One line of Javascript turns your nav in a beautfull mobile optmized menu.
-Using HEAD.js to load others libs.
+Doesn't consist of a vast amount of complex classes, spans and styles for everything even those styles that you never use. Only with 3 basic classes.
 
 ------------------------------------------------------------------------
 <h1>Sublime Text Package</h1>
