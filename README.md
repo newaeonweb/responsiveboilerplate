@@ -7,6 +7,7 @@ A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, 
 
 -----------------------------------------------------------------------
 <h1>Features Version 2.3.1</h1>
+<i>Working in Progress | Use at your own risk...</i>
 
 
 <h5>Cross Browser | Cross Device!</h5>
