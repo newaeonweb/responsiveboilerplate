@@ -1,0 +1,74 @@
+// Responsive Boilerplate V.0.1.0 - UI Component
+// Author: Fernando Monteiro at www.responsiveboilerplate.com
+// Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+//
+// Copyright (c) 2013*/
+
+// Placeholder text
+// -------------------------
+.placeholder(@color: @placeholderText) {
+  &:-moz-placeholder {
+    color: @color;
+  }
+  &:-ms-input-placeholder {
+    color: @color;
+  }
+  &::-webkit-input-placeholder {
+    color: @color;
+  }
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+.ie7-inline-block() {
+  *display: inline;
+  *zoom: 1;
+}
+
+.ie7-restore-left-whitespace() {
+  *margin-left: .3em;
+
+  &:first-child {
+    *margin-left: 0;
+  }
+}
+
+.ie7-restore-right-whitespace() {
+  *margin-right: .3em;
+}
+
+.reset-filter() {
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
+}
+
+.transition(@all: all, @sec: 500ms, @type: ease-in-out) {
+  -webkit-transition: @all @sec @type;
+  -moz-transition: @all @sec @type;
+  -o-transition: @all @sec @type;
+  -ms-transition: @all @sec @type;
+  transition: @all @sec @type;
+}
+
+.tab-focus() {
+  outline: thin dotted #333;
+
+  // Webkit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+// Opacity
+.opacity(@opacity) {
+  opacity: @opacity / 100;
+  filter: ~"alpha(opacity=@{opacity})";
+}
