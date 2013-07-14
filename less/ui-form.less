@@ -1,0 +1,245 @@
+/*==============================General form style============================*/
+.Rb-ui form {
+  margin: 0 0 @baseLineHeight;
+}
+ // Baseline for forms
+.Rb-ui select,
+.Rb-ui textarea,
+.Rb-ui input[type="text"],
+.Rb-ui input[type="password"],
+.Rb-ui input[type="datetime"],
+.Rb-ui input[type="datetime-local"],
+.Rb-ui input[type="date"],
+.Rb-ui input[type="month"],
+.Rb-ui input[type="time"],
+.Rb-ui input[type="week"],
+.Rb-ui input[type="number"],
+.Rb-ui input[type="email"],
+.Rb-ui input[type="url"],
+.Rb-ui input[type="search"],
+.Rb-ui input[type="tel"],
+.Rb-ui input[type="color"] {
+  padding: 8px 4px;
+  margin-bottom: @baseLineHeight / 2;
+  margin-top: 5px;
+  line-height: @baseLineHeight;
+  color: @gray;
+  .border-radius(@inputBorderRadius);
+  vertical-align: middle;
+  width: 98%;
+  background-color: @inputBackground;
+  border: 1px solid @inputBorder;
+  .box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
+  font: normal 0.835em Arial, Helvetica, sans-serif;
+
+  // Focus state
+  &:focus {
+    color: #454743;
+    border-color: rgba(82, 168, 236, .8);
+    outline: 0;
+    .box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6)");
+  }
+}
+
+.Rb-ui select {
+  width: 100%;
+}
+
+.Rb-ui input[type="radio"],
+.Rb-ui input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin-bottom: 0;
+}
+
+.Rb-ui input.inline {
+  width: 50%;
+  display: block;
+}
+
+.Rb-ui label, .Rb-ui legend {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Rb-ui label {
+  font-weight: bold;
+  font-size: @baseFontSize;
+  margin-bottom: 5px;
+  color: #797272;
+}
+
+.Rb-ui fieldset {
+  padding: 9px;
+  border: solid 1px #dddddd;
+  margin: 18px 0;
+}
+
+.Rb-ui legend {
+  font-size: @baseFontSize;
+  color: #797272;
+}
+
+//
+// Buttons
+// --------------------------------------------------
+
+.btn {
+  display: inline-block;
+  .ie7-inline-block();
+  padding: 4px 12px;
+  margin-bottom: 0; // For input.btn
+  font-size: @baseFontSize;
+  font-family: inherit;
+  line-height: @baseLineHeight;
+  *line-height: @baseLineHeight;
+  color: @white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: @btnDefault;
+  border: 1px solid darken(@btnDefault, 5%);
+  *border: 0;
+  .border-radius(@baseBorderRadius);
+  .ie7-restore-left-whitespace();
+  .box-shadow(~"inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05)");
+
+  // Hover state
+  &:hover {
+    color: darken(@white, 7%);
+    text-decoration: none;
+    background-color: lighten(@btnDefault, 5%);
+
+    .transition();
+  }
+
+  // Focus state for keyboard and accessibility
+  &:focus {
+    .tab-focus();
+  }
+
+  // Active state
+  &.active,
+  &:active {
+    background-color: lighten(@btnDefault, 10%);
+    outline: 0;
+    box-shadow: inset 0px 1px 1px 0px darken(@btnDefault, 10%);
+  }
+
+  // Disabled state
+  &.disabled,
+  &[disabled] {
+    cursor: default;
+    background-color: darken(@white, 10%);
+    background-image: none;
+    .opacity(65);
+    .box-shadow(none);
+  }
+
+}
+
+.blue {
+  background-color: @btnBlue;
+  border: 1px solid darken(@btnBlue, 5%);
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten(@btnBlue, 5%);
+
+    .transition();
+  }
+
+  &.active,
+  &:active {
+    background-color: lighten(@btnBlue, 10%);
+    outline: 0;
+  }
+
+}
+
+.green {
+  background-color: @btnGreen;
+  border: 1px solid darken(@btnGreen, 5%);
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten(@btnGreen, 5%);
+
+    .transition();
+  }
+
+  &.active,
+  &:active {
+    background-color: lighten(@btnGreen, 10%);
+    outline: 0;
+  }
+
+}
+
+.red {
+  background-color: @btnRed;
+  border: 1px solid darken(@btnRed, 5%);
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten(@btnRed, 5%);
+
+    .transition();
+  }
+
+  &.active,
+  &:active {
+    background-color: lighten(@btnRed, 10%);
+    outline: 0;
+  }
+
+}
+
+.orange {
+  background-color: @btnOrange;
+  border: 1px solid darken(@btnOrange, 5%);
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten(@btnOrange, 5%);
+
+    .transition();
+  }
+
+  &.active,
+  &:active {
+    background-color: lighten(@btnOrange, 10%);
+    outline: 0;
+  }
+
+}
+
+.turkese {
+  background-color: @btnTurkese;
+  border: 1px solid darken(@btnTurkese, 5%);
+
+  &:hover {
+    text-decoration: none;
+    background-color: lighten(@btnTurkese, 5%);
+
+    .transition();
+  }
+
+  &.active,
+  &:active {
+    background-color: lighten(@btnTurkese, 10%);
+    outline: 0;
+  }
+
+}
+
+// Large
+.big {
+  padding: 10px 20px;
+  font-size: 17.5px;
+}
+
+// Small
+.small {
+  padding: 2px 6px;
+  font-size: 10px;
+}
