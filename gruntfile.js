@@ -10,10 +10,13 @@ module.exports = function(grunt) {
       options: {
         banner: '/*! <%= pkg.name %> v<%= pkg.version %>, <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
-      build: {
-        src: 'js/custom.js',
-        dest: 'js/custom.min.js'
-      }
+        files: {
+            src: [ 'js/*.js' ],
+            dest: 'js/',
+            expand: true,
+            flatten: true,
+            ext: '.min.js'
+        }
     },
     jshint: {
       options: {
