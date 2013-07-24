@@ -1,5 +1,5 @@
 /*
-	Responsive Boilerplate V.2.3.0
+	Responsive Boilerplate V.2.3.1
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
 	Licensed under MIT license, http://opensource.org/licenses/mit-license.php
 
@@ -10,10 +10,8 @@
 	gutter 20px
 
 */
-
 /* #Reset
 ================================================================================================= */
-
 html,
 body,
 div,
@@ -139,7 +137,6 @@ table {
 }
 /* ClearFix
 ===============================================================================================*/
-
 .clearfix {
   *zoom: 1;
 }
@@ -154,7 +151,6 @@ table {
 }
 /* Media - Fluid Images - Video 
 ============================================================================================== */
-
 figure {
   margin: 0;
 }
@@ -165,26 +161,27 @@ video {
   max-width: 100%;
   _width: 100%;
 }
+/* Fluid images */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+/* Improve IE's resizing of images */
 svg:not(:root) {
   overflow: hidden;
 }
+/* Correct IE9 overflow */
 img {
   height: auto;
 }
 /* Links (No outline borders) 
 ============================================================================================== */
-
 a:hover,
 a:active {
   outline: 0;
 }
 /* Responsive Navigation Basic Style 
 ===============================================================================================*/
-
 #menu {
   display: none;
 }
@@ -203,21 +200,19 @@ a:active {
   #nav {
     display: none;
   }
-  ul {
+  #nav ul {
     margin: 0 auto;
     padding: 2%;
     background-color: #dddddd;
   }
-  li {
+  #nav li {
     width: 100%;
     display: block;
   }
 }
 /* Grid Columns
 ================================================================================================*/
-
 /*We strong recommend use the container tag one time only, just to center your grids on a page*/
-
 .container {
   padding-right: 20px;
   padding-left: 20px;
@@ -233,7 +228,6 @@ a:active {
   clear: both;
 }
 /* Fluid Default grid for 1024px screen resolution, grid based for 940px*/
-
 .content {
   width: 100%;
   *zoom: 1;
@@ -249,62 +243,61 @@ a:active {
 }
 .content [class*="col"] {
   float: left;
-  margin-left: 2.127659574%;
-  *margin-left: 2.074468085%;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
 }
 .content [class*="col"]:first-child {
   margin-left: 0;
 }
 .content .col12 {
   width: 100%;
-  *width: 99.946808511%;
+  *width: 99.94680851063829%;
 }
 .content .col11 {
-  width: 91.489361702%;
-  *width: 91.436170213%;
+  width: 91.48936170212765%;
+  *width: 91.43617021276594%;
 }
 .content .col10 {
-  width: 82.978723404%;
-  *width: 82.925531915%;
+  width: 82.97872340425532%;
+  *width: 82.92553191489361%;
 }
 .content .col9 {
-  width: 74.468085106%;
-  *width: 74.414893617%;
+  width: 74.46808510638297%;
+  *width: 74.41489361702126%;
 }
 .content .col8 {
-  width: 65.957446809%;
-  *width: 65.904255319%;
+  width: 65.95744680851064%;
+  *width: 65.90425531914893%;
 }
 .content .col7 {
-  width: 57.446808511%;
-  *width: 57.393617021%;
+  width: 57.44680851063829%;
+  *width: 57.39361702127659%;
 }
 .content .col6 {
-  width: 48.936170213%;
-  *width: 48.882978723%;
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
 }
 .content .col5 {
-  width: 40.425531915%;
-  *width: 40.372340426%;
+  width: 40.42553191489362%;
+  *width: 40.37234042553192%;
 }
 .content .col4 {
-  width: 31.914893617%;
-  *width: 31.861702128%;
+  width: 31.914893617021278%;
+  *width: 31.861702127659576%;
 }
 .content .col3 {
-  width: 23.404255319%;
-  *width: 23.35106383%;
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
 }
 .content .col2 {
-  width: 14.893617021%;
-  *width: 14.840425532%;
+  width: 14.893617021276595%;
+  *width: 14.840425531914894%;
 }
 .content .col1 {
-  width: 6.382978723%;
-  *width: 6.329787234%;
+  width: 6.382978723404255%;
+  *width: 6.329787234042553%;
 }
 /* Fluid grid to 1280px screen resolution, grid based for 1120px*/
-
 @media (min-width: 1200px) {
   .content {
     width: 100%;
@@ -321,64 +314,63 @@ a:active {
   }
   .content [class*="col"] {
     float: left;
-    margin-left: 1.694915254%;
-    *margin-left: 1.641723765%;
+    margin-left: 1.694915254237288%;
+    *margin-left: 1.641723764875586%;
   }
   .content [class*="col"]:first-child {
     margin-left: 0;
   }
   .content .col12 {
     width: 100%;
-    *width: 99.946808511%;
+    *width: 99.94680851063829%;
   }
   .content .col11 {
-    width: 91.525423729%;
-    *width: 91.472232239%;
+    width: 91.52542372881356%;
+    *width: 91.47223223945186%;
   }
   .content .col10 {
-    width: 83.050847458%;
-    *width: 82.997655968%;
+    width: 83.0508474576271%;
+    *width: 82.99765596826539%;
   }
   .content .col9 {
-    width: 74.576271186%;
-    *width: 74.523079697%;
+    width: 74.57627118644066%;
+    *width: 74.52307969707896%;
   }
   .content .col8 {
-    width: 66.101694915%;
-    *width: 66.048503426%;
+    width: 66.10169491525423%;
+    *width: 66.04850342589252%;
   }
   .content .col7 {
-    width: 57.627118644%;
-    *width: 57.573927155%;
+    width: 57.6271186440678%;
+    *width: 57.5739271547061%;
   }
   .content .col6 {
-    width: 49.152542373%;
-    *width: 49.099350884%;
+    width: 49.152542372881356%;
+    *width: 49.099350883519655%;
   }
   .content .col5 {
-    width: 40.677966102%;
-    *width: 40.624774612%;
+    width: 40.677966101694906%;
+    *width: 40.624774612333205%;
   }
   .content .col4 {
-    width: 32.203389831%;
-    *width: 32.150198341%;
+    width: 32.20338983050847%;
+    *width: 32.15019834114677%;
   }
   .content .col3 {
-    width: 23.728813559%;
-    *width: 23.67562207%;
+    width: 23.728813559322035%;
+    *width: 23.675622069960333%;
   }
   .content .col2 {
-    width: 15.254237288%;
-    *width: 15.201045799%;
+    width: 15.254237288135592%;
+    *width: 15.20104579877389%;
   }
   .content .col1 {
-    width: 6.779661017%;
-    *width: 6.726469528%;
+    width: 6.779661016949152%;
+    *width: 6.72646952758745%;
   }
 }
 /* General small screen Mobile down size from 768px, display all columns in block
 ============================================================================================== */
-
 @media handheld, only screen and (max-width: 768px) {
   body {
     font-size: 1.0em;
@@ -406,7 +398,6 @@ a:active {
 }
 /* Custom sizes
 ============================================================================================== */
-
 @media screen and (max-width: 480px) {
   /* Add your styles for devices with a maximum width of 480 */
 }
@@ -420,12 +411,10 @@ a:active {
   /* Add your styles for devices with a maximum width of 1024 */
 }
 /* iPads (landscape) ----------- */
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* Add your styles for devices with a maximum width of 1024 */
 }
 /* iPads (portrait) ----------- */
-
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* Add your styles for devices with a maximum width of 768 */
 }

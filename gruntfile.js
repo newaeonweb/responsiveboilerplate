@@ -36,10 +36,10 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
-          'src/rb-menu.min.js',
-          'src/rb-tab.min.js',
-          'src/rb-accodion.min.js',
-          'src/rb-modal.min.js'
+          'src/rb-menu.js',
+          'src/rb-tabs.js',
+          'src/rb-accordion.js',
+          'src/rb-modal.js'
         ],
         dest: 'js/rb-ui.js'
       }
