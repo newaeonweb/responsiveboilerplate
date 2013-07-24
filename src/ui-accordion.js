@@ -1,4 +1,4 @@
-// Rb Accordion, Depends on ui-accordion.less/or use ui-accordion.css on a separate enviroment
+// Rb Accordion, Depends on ui-accordion.less/or use ui-accordion.css on a separate environment
 (function () {
     'use strict';
 
