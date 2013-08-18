@@ -1,5 +1,5 @@
 /*!
- * @ Package for Responsive Boilerplate Micro Framework @!!!!!
+ * @ Package for Responsive Boilerplate Micro Lib @!!!!!
  */
 
 module.exports = function(grunt) {
