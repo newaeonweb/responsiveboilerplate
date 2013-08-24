@@ -3,7 +3,7 @@ A starting point to responsive web design!
 
 =======================================================================
 
-A lightweight (3kb) micro-framework, elegant and minimalistic CSS3 grid system, made with only one container and 12 columns. It`s very easy to use and understand, pre-packed with some extra css helpers for mobile devices.
+A lightweight (3kb) micro-library, elegant and minimalistic CSS3 grid system, made with only one container and 12 columns. It`s very easy to use and understand, pre-packed with some extra css helpers for mobile devices.
 
 -----------------------------------------------------------------------
 <h1>Features Version 2.3.1</h1>
@@ -35,7 +35,8 @@ Available a set of Sublime Text snippets on <a href="https://github.com/newaeonw
 Very easy to use and understand, but a minimum knowledge of HTML & CSS must be required.
 Follow the steps...
 
-- We <b>strongly</b> recommend the use of the index.html file included in the download package.
+- Clone our branch, and execute the npm install command to download all the dependecies.
+- We <b>strongly</b> recommend the use of the index.html as your starting point.
 - So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like the example:
 
 
