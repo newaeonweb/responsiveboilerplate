@@ -35,10 +35,14 @@ Available a set of Sublime Text snippets on <a href="https://github.com/newaeonw
 Very easy to use and understand, but a minimum knowledge of HTML & CSS must be required.
 Follow the steps...
 
-- Clone our branch, and execute the npm install command to download all the dependecies.
-- We <b>strongly</b> recommend the use of the index.html as your starting point.
-- So after the <a href="https://github.com/newaeonweb/responsiveboilerplate/archive/master.zip">download</a>, place your content like the example:
-
+<i>The version 2.3.1 depends on the latest version of Node.js If you use Ubuntu 13:04 recommend reading this <a href="http://www.newaeonweb.com.br/n3/ultima-versao-do-nodejs-no-ubuntu-13-04.html" target="_blank">post</a>, to install the latest version using the PPA. </i>
+<small>This tutorial assumes that you already has the latest version of node.js and npm installed.</small>
+<ol>
+    <li>Clone our branch: https://github.com/newaeonweb/responsiveboilerplate.git</li>
+    <li>Go to directory folder and execute: npm install to download all the dependecies.</li>
+    <li>We <b>strongly</b> recommend the use of the index.html as your starting point.</li>
+    <li>Place your content like the example:</li>
+</ol>
 
 <pre><code>
 &lt;!--Container Class to centralize your grid--&gt;
