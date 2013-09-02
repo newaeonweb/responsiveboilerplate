@@ -10,12 +10,10 @@
 @RbgridGutterWidth1200:     20px;
 @RbgridRowWidth1200:        (@RbgridColumns * @RbgridColumnWidth1200) + (@RbgridGutterWidth1200 * (@RbgridColumns - 1));
 
-
 // Fluid grid
 // -------------------------
 @RbfluidgridColumnWidth:         percentage(@RbgridColumnWidth/@RbgridRowWidth);
 @RbfluidgridGutterWidth:         percentage(@RbgridGutterWidth/@RbgridRowWidth);
-
 // 1120px math
 @RbfluidgridColumnWidth1200:     percentage(@RbgridColumnWidth1200/@RbgridRowWidth1200);
 @RbfluidgridGutterWidth1200:     percentage(@RbgridGutterWidth1200/@RbgridRowWidth1200);
@@ -70,7 +68,6 @@
 	gutter 20px
 
 */
-
 /* #Reset
 ================================================================================================= */
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -155,9 +152,7 @@ a:hover, a:active {outline: 0;}
     display: block;
     }
   }
-  
 }
-
 /* Grid Columns
 ================================================================================================*/
 // Layouts
@@ -167,16 +162,12 @@ a:hover, a:active {outline: 0;}
   padding-left: @RbgridGutterWidth;
   .clearfix();
 }
-
 /* Fluid Default grid for 1024px screen resolution, grid based for 940px*/
 #ResponsiveBoilerplate > .fluidRbgrid(@RbfluidgridColumnWidth, @RbfluidgridGutterWidth);
-
-
 /* Fluid grid to 1280px screen resolution, grid based for 1120px*/
 @media (min-width: 1200px) {
     #ResponsiveBoilerplate > .fluidRbgrid(@RbfluidgridColumnWidth1200, @RbfluidgridGutterWidth1200);
 }
-
 //
 /* General small screen Mobile down size from 768px, display all columns in block
 ============================================================================================== */
@@ -206,12 +197,9 @@ a:hover, a:active {outline: 0;}
   .content .col12 {
     width: 100%;
   }
-
-
 }
 /* Custom sizes
 ============================================================================================== */
-
       @media screen and (max-width: 480px) {
         /* Add your styles for devices with a maximum width of 480 */
       }
@@ -224,6 +212,7 @@ a:hover, a:active {outline: 0;}
       @media screen and (max-width: 1024px) {
         /* Add your styles for devices with a maximum width of 1024 */
       }
+
       /* iPads (landscape) ----------- */
 
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
