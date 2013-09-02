@@ -65,7 +65,8 @@ module.exports = function(grunt) {
       },
       compress: {
         files: {
-          'css/responsiveboilerplate.min.css': ['css/responsiveboilerplate.css']
+          'css/responsiveboilerplate.min.css': ['css/responsiveboilerplate.css'],
+          'css/rb-ui.min.css':['css/rb-ui.css']
         }
       }
     },
