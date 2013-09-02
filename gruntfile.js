@@ -40,9 +40,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'src/rb-menu.js',
-          'src/rb-tabs.js',
-          'src/rb-accordion.js',
-          'src/rb-modal.js'
+          'src/rb-accordion.js'
+
         ],
         dest: 'js/rb-ui.js'
       }
