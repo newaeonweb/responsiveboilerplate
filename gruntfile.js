@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       all: {
         files: {
-          src: ['gruntfile.js', 'js/custom.js']
+          src: ['gruntfile.js', 'js/custom.js', 'src/rb-accordion.js', 'rb-menu.js']
         }
       }
     },
@@ -53,7 +53,9 @@ module.exports = function(grunt) {
           yuicompress: false
         },
         files: {
-          'css/responsiveboilerplate.css':'less/responsiveboilerplate.less'
+          'css/responsiveboilerplate.css':'less/responsiveboilerplate.less',
+          'css/rb-ui.css':'less/rb-ui.less'
+
         }
       }
     },
