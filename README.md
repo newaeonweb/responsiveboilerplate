@@ -1,6 +1,6 @@
 <h1>Responsive Boilerplate</h1>
-A starting point to responsive web design!
-
+<h4>A starting point to responsive web design!</h4>
+[![Build Status](https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1)](https://travis-ci.org/newaeonweb/responsiveboilerplate)
 <img src="https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1" alt="Travis Bulid Aproved">
 =======================================================================
 
@@ -8,8 +8,6 @@ A lightweight (3kb) micro-library, elegant and minimalistic CSS3 grid system, ma
 
 -----------------------------------------------------------------------
 <h1>Features Version 2.3.1</h1>
-<i>Working in Progress | Use at your own risk...</i>
-
 
 <h5>Cross Browser | Cross Device!</h5>
 
