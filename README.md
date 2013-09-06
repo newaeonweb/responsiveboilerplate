@@ -1,7 +1,7 @@
 <h1>Responsive Boilerplate</h1>
 <h4>A starting point to responsive web design!</h4>
 [![Build Status](https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1)](https://travis-ci.org/newaeonweb/responsiveboilerplate)
-<img src="https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1" alt="Travis Bulid Aproved">
+
 =======================================================================
 
 A lightweight (3kb) micro-library, elegant and minimalistic CSS3 grid system, made with only one container and 12 columns. It`s very easy to use and understand, pre-packed with some extra css helpers for mobile devices.
