@@ -64,7 +64,7 @@ Follow the steps...
 
 - You can play with your columns to fit your needs and adjust to your own design.
 
-- Visit our <a href="">screencast</a> page (coming soon)
+- Visit our <a href="https://www.youtube.com/channel/UCnqv8IIq27HS1-lkGwu3mrw?feature=watch" target="_blank">screencast</a> page (coming soon)
 
 
 ------------------------------------------------------------------------
