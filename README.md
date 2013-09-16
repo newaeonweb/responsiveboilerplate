@@ -34,8 +34,9 @@ Follow the steps...
 > The version 2.3.1 depends on the latest version of Node.js
 > If you use Ubuntu 13:04 recommend reading this **Website:** http://www.newaeonweb.com.br/n3/ultima-versao-do-nodejs-no-ubuntu-13-04.html to install the latest version using the PPA.
 
-This tutorial assumes that you already has the latest version of node.js and npm installed.
--------------------------------------------------------------------------------------------
+#### This tutorial assumes that you already has the latest version of node.js and npm installed.
+
+---
 
 - Clone our branch: https://github.com/newaeonweb/responsiveboilerplate.git
 - Go to directory folder and execute: `` `npm install` `` to download all the dependecies.
@@ -72,6 +73,6 @@ Please welcome. We do not claim to be the best, we are just trying to help an op
 
 > www.responsiveboilerplate.com
 
-Developer: [an example](https://twitter.com/@newaeonweb/ "Twitter") @newaeonweb.
-Email: feiochc@gmail.com
-Google Plus: [an example](https://plus.google.com/102311871192373469721/posts/ "G +") Fernando Monteiro. 
+- Developer: [@newaeonweb](https://twitter.com/@newaeonweb/ "Twitter") 
+- Email: feiochc@gmail.com
+- Google Plus: [Fernando Monteiro](https://plus.google.com/102311871192373469721/posts/ "G +") 
