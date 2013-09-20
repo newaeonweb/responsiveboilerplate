@@ -39,7 +39,7 @@ Follow the steps...
 ---
 
 - Clone our branch: https://github.com/newaeonweb/responsiveboilerplate.git
-- Or you can use **Bower**: `` `bower install responsiveboilerplate´ ´´.
+- Or you can use **Bower**: `` `bower install responsiveboilerplate` ``.
 - Go to directory folder(responsiveboilerplate) and execute: `` `npm install` `` to download all the dependecies.
 - We **strongly** recommend the use of the index.html as your starting point.
 - Place your content like the example: 
