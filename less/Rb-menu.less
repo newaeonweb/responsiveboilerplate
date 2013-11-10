@@ -1,0 +1,35 @@
+/*==============================General Menu style============================*/
+  /* Responsive Navigation Basic Style
+  ===============================================================================================*/
+#menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #menu {
+    display: block;
+    background: #dddddd;
+    font-size: 1.35em;
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+
+    & span {
+      margin-right: 10px;
+    }
+  }
+
+  #nav {
+    display: none;
+
+    & ul {
+      margin: 0 auto;
+      padding: 2%;
+      background-color: #dddddd;
+    }
+
+    & li {
+      width: 100%;
+      display: block;
+    }
+  }
+}

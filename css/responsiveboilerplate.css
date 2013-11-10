@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 	Responsive Boilerplate V.2.3.1
 	Designed & Built by Fernando Monteiro, http://www.newaeonweb.com.br	
@@ -10,6 +11,13 @@
 	gutter 20px
 
 */
+=======
+/* Responsive Boilerplate V.2.3.1
+   Author: Fernando Monteiro at www.responsiveboilerplate.com
+   Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+
+   Copyright (c) 2013*/
+>>>>>>> Rb-package--beta-0.0.1
 /* #Reset
 ================================================================================================= */
 html,
@@ -136,7 +144,11 @@ table {
   border-spacing: 0;
 }
 /* ClearFix
+<<<<<<< HEAD
 ===============================================================================================*/
+=======
+  ===============================================================================================*/
+>>>>>>> Rb-package--beta-0.0.1
 .clearfix {
   *zoom: 1;
 }
@@ -149,7 +161,7 @@ table {
 .clearfix:after {
   clear: both;
 }
-/* Media - Fluid Images - Video 
+/* Media - Fluid Images - Video
 ============================================================================================== */
 figure {
   margin: 0;
@@ -174,13 +186,13 @@ svg:not(:root) {
 img {
   height: auto;
 }
-/* Links (No outline borders) 
+/* Links (No outline borders)
 ============================================================================================== */
 a:hover,
 a:active {
   outline: 0;
 }
-/* Responsive Navigation Basic Style 
+/* Responsive Navigation Basic Style
 ===============================================================================================*/
 #menu {
   display: none;
@@ -397,7 +409,11 @@ a:active {
   }
 }
 /* Custom sizes
+<<<<<<< HEAD
 ============================================================================================== */
+=======
+    ============================================================================================== */
+>>>>>>> Rb-package--beta-0.0.1
 @media screen and (max-width: 480px) {
   /* Add your styles for devices with a maximum width of 480 */
 }
