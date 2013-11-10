@@ -20,7 +20,6 @@
 })(jQuery);
 // To initiate this function use $('some element').Rbmenu(); Check the custom.js for a better understand.
 
-<<<<<<< HEAD
 // Rb Tabs, Depends on ui-tabs.less/or use ui-tab.css on a separate environment
 (function () {
     'use strict';
@@ -51,8 +50,6 @@
 })(jQuery);
 // To initiate this function use $('some element').Rbtabs(); Check the custom.js for a better understand.
 
-=======
->>>>>>> Rb-package--beta-0.0.1
 // Rb Accordion, Depends on ui-accordion.less/or use ui-accordion.css on a separate environment
 (function () {
     'use strict';
@@ -75,7 +72,6 @@
     });
 })(jQuery);
 // To initiate this function use $('some element').Rbaccordion(); Check the custom.js for a better understand.
-<<<<<<< HEAD
 
 // Rb Modal, Depends on ui-modal.less/ or use ui-modal.css on a separate environment
 (function () {
@@ -100,5 +96,3 @@
     });
 })(jQuery);
 // To initiate this function use $('some element').Rbmodal(); Check the custom.js for a better understand.
-=======
->>>>>>> Rb-package--beta-0.0.1
