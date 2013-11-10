@@ -74,6 +74,8 @@ Please welcome. We do not claim to be the best, we are just trying to help an op
 
 > www.responsiveboilerplate.com
 
+screencast coming soon.
+
 - Developer: [@newaeonweb](https://twitter.com/@newaeonweb/ "Twitter") 
 - Email: feiochc@gmail.com
 - Google Plus: [Fernando Monteiro](https://plus.google.com/102311871192373469721/posts/ "G +") 
