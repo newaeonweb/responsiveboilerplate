@@ -32,7 +32,7 @@ Very easy to use and understand, but a minimum knowledge of HTML & CSS must be r
 Follow the steps...
 
 > The version 2.3.1 depends on the latest version of Node.js
-> If you use Ubuntu 13:04 recommend reading this **Website:** http://www.newaeonweb.com.br/n3/ultima-versao-do-nodejs-no-ubuntu-13-04.html to install the latest version using the PPA.
+> If you use Ubuntu 13:04 recommend reading this **Website:** hhttp://www.ubuntuupdates.org/ppa/chris_lea_nodejs to install the latest version using the PPA.
 
 #### This tutorial assumes that you already has the latest version of node.js and npm installed.
 
@@ -73,8 +73,6 @@ Please welcome. We do not claim to be the best, we are just trying to help an op
 ## More Infos 
 
 > www.responsiveboilerplate.com
-
-screencast coming soon.
 
 - Developer: [@newaeonweb](https://twitter.com/@newaeonweb/ "Twitter") 
 - Email: feiochc@gmail.com
