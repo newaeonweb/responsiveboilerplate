@@ -27,8 +27,19 @@
       width: 100%;
     }
   }
-    /* Custom sizes
-    ============================================================================================== */
+/* Custom sizes
+============================================================================================== */
+  // Adjust for windows 8 viewport size
+  @media screen and (max-width:400px) {
+    /* Helpers for windows phone 8 */
+    @-ms-viewport{
+      width: device-width;
+    }
+    @viewport{
+      width: device-width;
+    }
+  }
+
   @media screen and (max-width: 480px) {
     /* Add your styles for devices with a maximum width of 480 */
   }

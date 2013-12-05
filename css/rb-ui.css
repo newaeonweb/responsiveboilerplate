@@ -4,6 +4,36 @@
 */
 /* Copyright (c) 2013*/
 /*==============================General Menu style============================*/
+/* Responsive Navigation Basic Style
+  ===============================================================================================*/
+#menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #menu {
+    display: block;
+    background: #dddddd;
+    font-size: 1.35em;
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+  }
+  #menu span {
+    margin-right: 10px;
+  }
+  #nav {
+    display: none;
+  }
+  #nav ul {
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #dddddd;
+  }
+  #nav li {
+    width: 100%;
+    display: block;
+  }
+}
 /*==============================General Accordion style============================*/
 .RbaccordionHeading {
   padding: 10px;

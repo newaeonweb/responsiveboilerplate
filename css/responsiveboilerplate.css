@@ -129,7 +129,7 @@ table {
   border-spacing: 0;
 }
 /* ClearFix
-  ===============================================================================================*/
+=============================================================================================== */
 .clearfix {
   *zoom: 1;
 }
@@ -160,12 +160,25 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 /* Improve IE's resizing of images */
+img {
+  height: auto;
+}
+/* Correct IE9 overflow */
 svg:not(:root) {
   overflow: hidden;
 }
-/* Correct IE9 overflow */
 img {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  _width: 100%;
   height: auto;
+  vertical-align: middle;
+}
+/* Avoid Gmaps broken with max-width 100% */
+img[src*="maps.gstatic.com"],
+img[src*="googleapis.com"] {
+  max-width: none;
 }
 /* Links (No outline borders)
 ============================================================================================== */
@@ -390,7 +403,16 @@ a:active {
   }
 }
 /* Custom sizes
-    ============================================================================================== */
+============================================================================================== */
+@media screen and (max-width: 400px) {
+  /* Helpers for windows phone 8 */
+  @-ms-viewport {
+    width: device-width;
+  }
+  @viewport {
+    width: device-width;
+  }
+}
 @media screen and (max-width: 480px) {
   /* Add your styles for devices with a maximum width of 480 */
 }

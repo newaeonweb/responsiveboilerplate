@@ -14,11 +14,11 @@ A lightweight (3kb) micro-library, elegant and minimalistic CSS3 grid system, ma
 
 Adapt to any screen size, including fluid media; images and video and pre-configured with 4 breakpoints, just to make your job easier.
  
-## Sublime text Snippets | Grunt.js Package
+## Sublime Text Snippets | Grunt.js Package
 
-Include in the package: PSD Template, HTML5 starting point file for fast development, a demo example. Also is available a Sublime Text package with a complete pack of snippets as you can read below.
+Include in the package: PSD Template, HTML5 starting point file for fast development, a demo example. Also is available a Sublime Text Package with a complete pack of snippets as you can read below.
 
-**Website:** http://newaeonweb.github.io/Rb-ui/
+**Website:** https://github.com/newaeonweb/ResponsiveBoilerplateSnippets
 
 ## Low Learning Curve.
 
