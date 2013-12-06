@@ -1,0 +1,157 @@
+// Default columns to 940px grid for 1024px screen resolution
+// -------------------------------------------------------------------
+@RbgridColumns:             12;
+@RbgridColumnWidth:         60px;
+@RbgridGutterWidth:         20px;
+@RbgridRowWidth:            (@RbgridColumns * @RbgridColumnWidth) + (@RbgridGutterWidth * (@RbgridColumns - 1));
+
+// 1120px min for 1280px screen resolution
+@RbgridColumnWidth1200:     80px;
+@RbgridGutterWidth1200:     20px;
+@RbgridRowWidth1200:        (@RbgridColumns * @RbgridColumnWidth1200) + (@RbgridGutterWidth1200 * (@RbgridColumns - 1));
+
+// Fluid grid
+// -------------------------
+@RbfluidgridColumnWidth:         percentage(@RbgridColumnWidth/@RbgridRowWidth);
+@RbfluidgridGutterWidth:         percentage(@RbgridGutterWidth/@RbgridRowWidth);
+// 1120px math
+@RbfluidgridColumnWidth1200:     percentage(@RbgridColumnWidth1200/@RbgridRowWidth1200);
+@RbfluidgridGutterWidth1200:     percentage(@RbgridGutterWidth1200/@RbgridRowWidth1200);
+
+// Mixins
+/* ClearFix
+=============================================================================================== */
+.clearfix {
+	*zoom: 1;
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+	&:after {
+		clear: both;
+	}
+}
+// Grid System
+// -----------
+#ResponsiveBoilerplate {
+	//Fluid Engine Generator
+	.fluidRbgrid (@RbfluidgridColumnWidth, @RbfluidgridGutterWidth) {
+
+		.columnsX (@index) when (@index > 0) {
+			(~".col@{index}") { .createColumns(@index); }
+			.columnsX(@index - 1);
+		}
+		.columnsX (0) {}
+
+		.createColumns (@columns) {
+			width: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * (@columns - 1));
+			*width: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * (@columns - 1)) - (.5 / @RbgridRowWidth * 100 * 1%);
+		}
+
+		.content {
+			width: 100%;
+			.clearfix();
+			[class*="col"] {
+				float: left;
+				margin-left: @RbfluidgridGutterWidth;
+				*margin-left: @RbfluidgridGutterWidth - (.5 / @RbgridRowWidth * 100 * 1%);
+			}
+			[class*="col"]:first-child {
+				margin-left: 0;
+			}
+
+			.columnsX (@RbgridColumns);
+		}
+
+	}
+
+}
+
+/* Media - Fluid Images - Video
+============================================================================================== */
+figure {
+	margin: 0;
+}
+
+img, 
+object, 
+embed, 
+video {
+	max-width: 100%; 
+	_width: 100%;
+} 
+/* Fluid images */
+img {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0; 
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	/* Improve IE's resizing of images */
+	height: auto;
+}
+
+/* Correct IE9 overflow */
+svg:not(:root) {overflow: hidden}
+
+/* Avoid Google maps broken with max-width 100% */
+img[src*="maps.gstatic.com"],
+img[src*="googleapis.com"] {
+	max-width: none;
+}
+
+/* Links (No outline borders)
+============================================================================================== */
+a:hover, a:active {outline: 0;}
+
+/* Responsive Navigation Basic Style
+===============================================================================================*/
+#menu {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	#menu {
+		display: block;
+		background: #dddddd;
+		font-size: 1.35em;
+		text-align: right;
+		cursor: pointer;
+		padding: 5px;
+
+		& span {
+			margin-right: 10px;
+		}
+	}
+
+	#nav {
+		display: none;
+
+		& ul {
+			margin: 0 auto;
+			padding: 2%;
+			background-color: #dddddd;
+		}
+
+		& li {
+			width: 100%;
+			display: block;
+		}
+	}
+}
+/* Grid Columns
+================================================================================================*/
+// Layouts
+	/*We strong recommend use the container tag one time only, just to center your grids on the page*/
+.container {
+	padding-right: @RbgridGutterWidth;
+	padding-left: @RbgridGutterWidth;
+	.clearfix();
+}
+	/* Fluid Default grid for 1024px screen resolution, grid based for 940px*/
+#ResponsiveBoilerplate > .fluidRbgrid(@RbfluidgridColumnWidth, @RbfluidgridGutterWidth);
+	/* Fluid grid to 1280px screen resolution, grid based for 1120px*/
+@media (min-width: 1200px) {
+	#ResponsiveBoilerplate > .fluidRbgrid(@RbfluidgridColumnWidth1200, @RbfluidgridGutterWidth1200);
+}

@@ -1,0 +1,65 @@
+/* General small screen Mobile down size from 768px, display all columns in block
+============================================================================================== */
+	@media handheld, only screen and (max-width: 768px) {
+
+		body {
+			font-size: 1.0em;
+			-webkit-text-size-adjust: none;
+			-ms-text-size-adjust: none;
+		}
+		.container {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.content {
+			width: 100%;
+		}
+
+		[class*="col"],
+		.content [class*="col"] {
+			float: none;
+			display: block;
+			width: 100%;
+			margin-left: 0;
+		}
+		.col12,
+		.content .col12 {
+			width: 100%;
+		}
+	}
+/* Custom sizes
+============================================================================================== */
+	// Adjust for windows 8 viewport size
+	@media screen and (max-width:400px) {
+		/* Helpers for windows phone 8 */
+		@-ms-viewport{
+			width: device-width;
+		}
+		@viewport{
+			width: device-width;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		/* Add your styles for devices with a maximum width of 480 */
+	}
+	@media screen and (max-width: 768px) {
+		/* Add your styles for devices with a maximum width of 768 */
+	}
+	@media screen and (max-width: 320px) {
+		/* Add your styles for devices with a maximum width of 320 */
+	}
+	@media screen and (max-width: 1024px) {
+		/* Add your styles for devices with a maximum width of 1024 */
+	}
+
+		/* iPads (landscape) ----------- */
+
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+		/* Add your styles for devices with a maximum width of 1024 */
+	}
+		/* iPads (portrait) ----------- */
+
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+		/* Add your styles for devices with a maximum width of 768 */
+	}

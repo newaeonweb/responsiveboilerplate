@@ -1,10 +1,12 @@
-/* Responsive Boilerplate V.2.3.1
-   Author: Fernando Monteiro at www.responsiveboilerplate.com
-   Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+/*!* ResponsiveBoilerplate v2.3.2 - 2013-12-06. 
+* Author: Fernando Monteiro - Licensed under MIT license.
+*/
+/*WARNING: Never change the CSS files. Use the respective LESS files,
+otherwise your work here will be cleaned on next Grunt.js build*/
 
-   Copyright (c) 2013*/
 /* #Reset
 ================================================================================================= */
+
 html,
 body,
 div,
@@ -86,13 +88,14 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
+  margin: 0;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
+  border: 0;
 }
+
 article,
 aside,
 details,
@@ -106,17 +109,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -124,81 +131,92 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* ClearFix
 =============================================================================================== */
+
 .clearfix {
   *zoom: 1;
 }
+
 .clearfix:before,
 .clearfix:after {
   display: table;
-  content: "";
   line-height: 0;
+  content: "";
 }
+
 .clearfix:after {
   clear: both;
 }
+
 /* Media - Fluid Images - Video
 ============================================================================================== */
+
 figure {
   margin: 0;
 }
+
 img,
 object,
 embed,
 video {
-  max-width: 100%;
   _width: 100%;
+  max-width: 100%;
 }
+
 /* Fluid images */
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-/* Improve IE's resizing of images */
+
 img {
   height: auto;
+  vertical-align: middle;
+  border: 0;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -ms-interpolation-mode: bicubic;
 }
+
 /* Correct IE9 overflow */
+
 svg:not(:root) {
   overflow: hidden;
 }
-img {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  max-width: 100%;
-  _width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-/* Avoid Gmaps broken with max-width 100% */
+
+/* Avoid Google maps broken with max-width 100% */
+
 img[src*="maps.gstatic.com"],
 img[src*="googleapis.com"] {
   max-width: none;
 }
+
 /* Links (No outline borders)
 ============================================================================================== */
+
 a:hover,
 a:active {
   outline: 0;
 }
+
 /* Responsive Navigation Basic Style
 ===============================================================================================*/
+
 #menu {
   display: none;
 }
+
 @media screen and (max-width: 768px) {
   #menu {
     display: block;
-    background: #dddddd;
+    padding: 5px;
     font-size: 1.35em;
     text-align: right;
     cursor: pointer;
-    padding: 5px;
+    background: #dddddd;
   }
   #menu span {
     margin-right: 10px;
@@ -207,103 +225,128 @@ a:active {
     display: none;
   }
   #nav ul {
-    margin: 0 auto;
     padding: 2%;
+    margin: 0 auto;
     background-color: #dddddd;
   }
   #nav li {
-    width: 100%;
     display: block;
+    width: 100%;
   }
 }
+
 /* Grid Columns
 ================================================================================================*/
-/*We strong recommend use the container tag one time only, just to center your grids on a page*/
+
+/*We strong recommend use the container tag one time only, just to center your grids on the page*/
+
 .container {
   padding-right: 20px;
   padding-left: 20px;
   *zoom: 1;
 }
+
 .container:before,
 .container:after {
   display: table;
-  content: "";
   line-height: 0;
+  content: "";
 }
+
 .container:after {
   clear: both;
 }
+
 /* Fluid Default grid for 1024px screen resolution, grid based for 940px*/
+
 .content {
   width: 100%;
   *zoom: 1;
 }
+
 .content:before,
 .content:after {
   display: table;
-  content: "";
   line-height: 0;
+  content: "";
 }
+
 .content:after {
   clear: both;
 }
+
 .content [class*="col"] {
   float: left;
   margin-left: 2.127659574468085%;
   *margin-left: 2.074468085106383%;
 }
+
 .content [class*="col"]:first-child {
   margin-left: 0;
 }
+
 .content .col12 {
   width: 100%;
   *width: 99.94680851063829%;
 }
+
 .content .col11 {
   width: 91.48936170212765%;
   *width: 91.43617021276594%;
 }
+
 .content .col10 {
   width: 82.97872340425532%;
   *width: 82.92553191489361%;
 }
+
 .content .col9 {
   width: 74.46808510638297%;
   *width: 74.41489361702126%;
 }
+
 .content .col8 {
   width: 65.95744680851064%;
   *width: 65.90425531914893%;
 }
+
 .content .col7 {
   width: 57.44680851063829%;
   *width: 57.39361702127659%;
 }
+
 .content .col6 {
   width: 48.93617021276595%;
   *width: 48.88297872340425%;
 }
+
 .content .col5 {
   width: 40.42553191489362%;
   *width: 40.37234042553192%;
 }
+
 .content .col4 {
   width: 31.914893617021278%;
   *width: 31.861702127659576%;
 }
+
 .content .col3 {
   width: 23.404255319148934%;
   *width: 23.351063829787233%;
 }
+
 .content .col2 {
   width: 14.893617021276595%;
   *width: 14.840425531914894%;
 }
+
 .content .col1 {
   width: 6.382978723404255%;
   *width: 6.329787234042553%;
 }
+
 /* Fluid grid to 1280px screen resolution, grid based for 1120px*/
+
 @media (min-width: 1200px) {
   .content {
     width: 100%;
@@ -312,8 +355,8 @@ a:active {
   .content:before,
   .content:after {
     display: table;
-    content: "";
     line-height: 0;
+    content: "";
   }
   .content:after {
     clear: both;
@@ -375,25 +418,27 @@ a:active {
     *width: 6.72646952758745%;
   }
 }
+
 /* General small screen Mobile down size from 768px, display all columns in block
 ============================================================================================== */
+
 @media handheld, only screen and (max-width: 768px) {
   body {
-    font-size: 1.0em;
+    font-size: 1.0;
     -webkit-text-size-adjust: none;
-    -ms-text-size-adjust: none;
+        -ms-text-size-adjust: none;
   }
   .container {
-    padding-left: 10px;
     padding-right: 10px;
+    padding-left: 10px;
   }
   .content {
     width: 100%;
   }
   [class*="col"],
   .content [class*="col"] {
-    float: none;
     display: block;
+    float: none;
     width: 100%;
     margin-left: 0;
   }
@@ -402,10 +447,15 @@ a:active {
     width: 100%;
   }
 }
+
 /* Custom sizes
 ============================================================================================== */
+
 @media screen and (max-width: 400px) {
-  /* Helpers for windows phone 8 */
+  {
+    /* Helpers for windows phone 8 */
+  
+  }
   @-ms-viewport {
     width: device-width;
   }
@@ -413,23 +463,49 @@ a:active {
     width: device-width;
   }
 }
+
 @media screen and (max-width: 480px) {
-  /* Add your styles for devices with a maximum width of 480 */
+  {
+    /* Add your styles for devices with a maximum width of 480 */
+  
+  }
 }
+
 @media screen and (max-width: 768px) {
-  /* Add your styles for devices with a maximum width of 768 */
+  {
+    /* Add your styles for devices with a maximum width of 768 */
+  
+  }
 }
+
 @media screen and (max-width: 320px) {
-  /* Add your styles for devices with a maximum width of 320 */
+  {
+    /* Add your styles for devices with a maximum width of 320 */
+  
+  }
 }
+
 @media screen and (max-width: 1024px) {
-  /* Add your styles for devices with a maximum width of 1024 */
+  {
+    /* Add your styles for devices with a maximum width of 1024 */
+  
+  }
 }
+
 /* iPads (landscape) ----------- */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Add your styles for devices with a maximum width of 1024 */
+  {
+    /* Add your styles for devices with a maximum width of 1024 */
+  
+  }
 }
+
 /* iPads (portrait) ----------- */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Add your styles for devices with a maximum width of 768 */
+  {
+    /* Add your styles for devices with a maximum width of 768 */
+  
+  }
 }

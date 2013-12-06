@@ -1,11 +1,16 @@
-/* Responsive Boilerplate V.2.3.1
-   Author: Fernando Monteiro at www.responsiveboilerplate.com
-   Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+// Responsive Boilerplate
+// Author: Fernando Monteiro at www.responsiveboilerplate.com
+// Licensed under MIT license, http://opensource.org/licenses/mit-license.php
+// Copyright (c) 2013*/
 
-   Copyright (c) 2013*/
-// Simple Reset
-@import "responsiveboilerplateRESET";
-// All the Magic is here
-@import "responsiveboilerplateGRID.less";
+/*WARNING: Never change the CSS files. Use the respective LESS files,
+otherwise your work here will be cleaned on next Grunt.js build*/
+
+// Simple Reset but you can use normalize.css instead.
+@import "reset.less";
+// All the Magic is here.
+// Grind Columns and some image, video helpers.
+@import "gridColumns.less";
 // Media Queries
-@import "responsiveboilerplateMEDIAQUERIES.less";
+// Keep this file at last to overhide the desktop style.
+@import "mediaqueries.less";
