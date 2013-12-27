@@ -77,5 +77,3 @@ Please welcome. Feel free to test, use, fork, send bugs, suggestions and contrib
 - Developer: [@newaeonweb](https://twitter.com/@newaeonweb/ "Twitter") 
 - Email: feiochc@gmail.com
 - Google Plus: [Fernando Monteiro](https://plus.google.com/102311871192373469721/posts/ "G +")
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/newaeonweb/responsiveboilerplate/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
