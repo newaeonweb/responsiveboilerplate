@@ -1,6 +1,5 @@
 before_install:
-  - [ "${TRAVIS_NODE_VERSION}" = "0.6" ] && npm conf set strict-ssl false
-
+  - '[ "${TRAVIS_NODE_VERSION}" = "0.6" ] && npm conf set strict-ssl false'
  language: node_js
  node_js:
    - "0.10"
