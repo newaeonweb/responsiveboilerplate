@@ -2,6 +2,9 @@
     "name": "ResponsiveBoilerplate",
     "version": "2.3.2",
     "description": "<h1>Responsive Boilerplate</h1>\r A starting point to responsive web design!",
+    "engines": {
+        "node": ">=0.8"
+    },
     "dependencies": {
         "grunt-contrib-jshint": "~0.5.2",
         "grunt-contrib-watch": "~0.4.3",
