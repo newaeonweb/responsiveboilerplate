@@ -2,6 +2,8 @@ Responsive Boilerplate v2.3.2
 ====================
 [![Build Status](https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1)](https://travis-ci.org/newaeonweb/responsiveboilerplate)
 
+[![Coverage Status](https://coveralls.io/repos/newaeonweb/responsiveboilerplate/badge.png)](https://coveralls.io/r/newaeonweb/responsiveboilerplate)
+
 > A starting point to responsive web design!
 
 **Website:** http://www.responsiveboilerplate.com/
