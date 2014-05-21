@@ -43,11 +43,28 @@
 			(~".col@{index}") { .createColumns(@index); }
 			.columnsX(@index - 1);
 		}
+		.pushX (@index) when (@index > 0) and (@index < @RbgridColumns) {
+			(~".push@{index}") { .pushColumns(@index); }
+			.pushX(@index - 1);
+		}
+                .pushX (12) {
+                    .push12 {
+                        left: (@RbfluidgridColumnWidth * 12) + (@RbfluidgridGutterWidth * 11);
+                        *left: (@RbfluidgridColumnWidth * 12) + (@RbfluidgridGutterWidth * 11) - (.5 / @RbgridRowWidth * 100 * 1%)
+                    }
+                }
 		.columnsX (0) {}
+                .pushX (0) {}
 
 		.createColumns (@columns) {
 			width: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * (@columns - 1));
 			*width: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * (@columns - 1)) - (.5 / @RbgridRowWidth * 100 * 1%);
+		}
+
+
+		.pushColumns (@columns) {
+			left: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * @columns);
+			*left: (@RbfluidgridColumnWidth * @columns) + (@RbfluidgridGutterWidth * @columns) - (.5 / @RbgridRowWidth * 100 * 1%);
 		}
 
 		.content {
@@ -57,12 +74,15 @@
 				float: left;
 				margin-left: @RbfluidgridGutterWidth;
 				*margin-left: @RbfluidgridGutterWidth - (.5 / @RbgridRowWidth * 100 * 1%);
+                                position: relative;
 			}
 			[class*="col"]:first-child {
 				margin-left: 0;
 			}
 
 			.columnsX (@RbgridColumns);
+			.pushX (12);
+			.pushX (@RbgridColumns - 1);
 		}
 
 	}
