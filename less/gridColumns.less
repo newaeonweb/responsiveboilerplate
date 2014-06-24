@@ -22,7 +22,7 @@
 /* ClearFix
 =============================================================================================== */
 .clearfix {
-	*zoom: 1;
+
 	&:before,
 	&:after {
 		display: table;
@@ -32,6 +32,10 @@
 	&:after {
 		clear: both;
 	}
+}
+// Add child selector for IE-specific declarations.
+body > .clearfix {
+  zoom: 1;
 }
 // Grid System
 // -----------
@@ -74,17 +78,21 @@
 figure {
 	margin: 0;
 }
-
-img, 
+img,
 object, 
 embed, 
 video {
 	max-width: 100%; 
-	_width: 100%;
-} 
+
+}
+body > img, object, embed, video {
+    width: 100%;
+}
 /* Fluid images */
 img {
 	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 0; 
 	-ms-interpolation-mode: bicubic;
@@ -104,7 +112,7 @@ img[src*="googleapis.com"] {
 
 /* Links (No outline borders)
 ============================================================================================== */
-a:hover, a:active {outline: 0;}
+a:focus {outline: 0;}
 
 /* Responsive Navigation Basic Style
 ===============================================================================================*/

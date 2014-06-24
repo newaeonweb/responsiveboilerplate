@@ -1,4 +1,4 @@
-Responsive Boilerplate v2.3.2
+Responsive Boilerplate v2.3.3
 ====================
 [![Build Status](https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1)](https://travis-ci.org/newaeonweb/responsiveboilerplate) 
 
@@ -31,7 +31,7 @@ Doesn't consist of a vast amount of complex classes, spans and styles for everyt
 Very easy to use and understand, but a minimum knowledge of HTML & CSS must be required.
 Follow the steps...
 
-> The version 2.3.1 depends on the latest version of **Node.js**.
+> From version 2.3.1 we depend on the latest version of **Node.js**.
 > If you use Ubuntu 13:04 we recommend reading this: [How to install the latest Node.js version using the PPA](http://www.ubuntuupdates.org/ppa/chris_lea_nodejs).
 
 #### This tutorial assumes that you already has the latest version of node.js and npm installed.
@@ -65,6 +65,21 @@ Follow the steps...
 
 - You can play with your columns to fit your needs and adjust to your own design.
 - Visit our <a href="https://www.youtube.com/channel/UCnqv8IIq27HS1-lkGwu3mrw?feature=watch" target="_blank">screencast</a> page.
+
+#### Quick start with Grunt.js
+
+After clone or install with `bower`, goes to the root folder and execute the following command:
+
+``` npm install
+    grunt
+```
+
+To see the demo page running on localhost:
+
+```grunt demo
+```
+
+This command will open your default browser with the demo page.
 
 ## Contribute
 

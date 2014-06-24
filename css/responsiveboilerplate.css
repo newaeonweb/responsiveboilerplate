@@ -1,4 +1,4 @@
-/*!* ResponsiveBoilerplate v2.3.2 - 2013-12-27. 
+/*!* ResponsiveBoilerplate v2.3.2 - 2014-06-24. 
 * Author: Fernando Monteiro - Licensed under MIT license.
 */
 /*WARNING: Never change the CSS files. Use the respective LESS files,
@@ -77,7 +77,6 @@ figure,
 figcaption,
 footer,
 header,
-hgroup,
 menu,
 nav,
 output,
@@ -90,7 +89,6 @@ audio,
 video {
   padding: 0;
   margin: 0;
-  font: inherit;
   font-size: 100%;
   vertical-align: baseline;
   border: 0;
@@ -103,7 +101,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 menu,
 nav,
 section {
@@ -129,7 +126,6 @@ blockquote:after,
 q:before,
 q:after {
   content: '';
-  content: none;
 }
 
 table {
@@ -140,10 +136,6 @@ table {
 /* ClearFix
 =============================================================================================== */
 
-.clearfix {
-  *zoom: 1;
-}
-
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -153,6 +145,10 @@ table {
 
 .clearfix:after {
   clear: both;
+}
+
+body > .clearfix {
+  zoom: 1;
 }
 
 /* Media - Fluid Images - Video
@@ -166,8 +162,14 @@ img,
 object,
 embed,
 video {
-  _width: 100%;
   max-width: 100%;
+}
+
+body > img,
+object,
+embed,
+video {
+  width: 100%;
 }
 
 /* Fluid images */
@@ -176,8 +178,10 @@ img {
   height: auto;
   vertical-align: middle;
   border: 0;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
   -ms-interpolation-mode: bicubic;
 }
 
@@ -197,8 +201,7 @@ img[src*="googleapis.com"] {
 /* Links (No outline borders)
 ============================================================================================== */
 
-a:hover,
-a:active {
+a:focus {
   outline: 0;
 }
 
@@ -243,7 +246,6 @@ a:active {
 .container {
   padding-right: 20px;
   padding-left: 20px;
-  *zoom: 1;
 }
 
 .container:before,
@@ -261,7 +263,6 @@ a:active {
 
 .content {
   width: 100%;
-  *zoom: 1;
 }
 
 .content:before,
@@ -350,7 +351,6 @@ a:active {
 @media (min-width: 1200px) {
   .content {
     width: 100%;
-    *zoom: 1;
   }
   .content:before,
   .content:after {
@@ -451,11 +451,9 @@ a:active {
 /* Custom sizes
 ============================================================================================== */
 
+/* Helpers for windows phone 8 */
+
 @media screen and (max-width: 400px) {
-  {
-    /* Helpers for windows phone 8 */
-  
-  }
   @-ms-viewport {
     width: device-width;
   }
@@ -464,48 +462,40 @@ a:active {
   }
 }
 
+/* Add your styles for devices with a maximum width of 480 */
+
 @media screen and (max-width: 480px) {
-  {
-    /* Add your styles for devices with a maximum width of 480 */
   
-  }
 }
+
+/* Add your styles for devices with a maximum width of 768 */
 
 @media screen and (max-width: 768px) {
-  {
-    /* Add your styles for devices with a maximum width of 768 */
   
-  }
 }
+
+/* Add your styles for devices with a maximum width of 320 */
 
 @media screen and (max-width: 320px) {
-  {
-    /* Add your styles for devices with a maximum width of 320 */
   
-  }
 }
+
+/* Add your styles for devices with a maximum width of 1024 */
 
 @media screen and (max-width: 1024px) {
-  {
-    /* Add your styles for devices with a maximum width of 1024 */
   
-  }
 }
 
-/* iPads (landscape) ----------- */
+/* iPads (landscape) and (portrait)  ----------- */
+
+/* Add your styles for devices with a maximum width of 1024 */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  {
-    /* Add your styles for devices with a maximum width of 1024 */
   
-  }
 }
 
-/* iPads (portrait) ----------- */
+/* Add your styles for devices with a maximum width of 768 */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  {
-    /* Add your styles for devices with a maximum width of 768 */
   
-  }
 }
