@@ -68,18 +68,18 @@ Follow the steps...
 
 #### Quick start with Grunt.js
 
-After clone or install with `bower`, goes to the root folder and execute the following command:
+After cloning or install with `bower`, go to the root folder and execute the following command:
 
-``` npm install
-    grunt
-```
+```npm install```
 
 To see the demo page running on localhost:
 
-```grunt demo
-```
+```grunt demo```
 
 This command will open your default browser with the demo page.
+
+**Note:**
+> * if you are on Windows use: `grunt.cmd demo`
 
 ## Contribute
 
