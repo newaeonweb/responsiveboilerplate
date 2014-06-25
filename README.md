@@ -1,4 +1,4 @@
-Responsive Boilerplate v2.3.3
+Responsive Boilerplate v2.3.4
 ====================
 [![Build Status](https://travis-ci.org/newaeonweb/responsiveboilerplate.png?branch=Rb-package--beta-0.0.1)](https://travis-ci.org/newaeonweb/responsiveboilerplate) 
 
