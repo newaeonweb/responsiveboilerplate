@@ -1,6 +1,6 @@
 {
   "name": "ResponsiveBoilerplate",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "<h1>Responsive Boilerplate</h1>\r A starting point to responsive web design!",
   "engines": {
     "node": ">=0.8"
@@ -9,7 +9,7 @@
     "grunt-contrib-jshint": "~0.5.2",
     "grunt-contrib-watch": "~0.4.3",
     "grunt-contrib-uglify": "~0.2.0",
-    "grunt-recess": "~0.4.0",
+    "grunt-recess": "~0.6.0",
     "grunt": "~0.4.1"
   },
   "devDependencies": {
@@ -19,7 +19,7 @@
     "grunt-contrib-watch": "~0.6.0",
     "grunt-express": "^1.4.0",
     "grunt-open": "^0.2.3",
-    "grunt-recess": "~0.4.0",
+    "grunt-recess": "~0.6.0",
     "load-grunt-tasks": "~0.6.0",
     "time-grunt": "~0.3.2"
   },
