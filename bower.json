@@ -1,6 +1,6 @@
 {
   "name": "responsiveboilerplate",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "main": "css/responsiveboilerplate.min.css",
   "description": "A starting point to responsive web design, lightweight and fast!",
   "license": "MIT",
@@ -16,13 +16,13 @@
     "grunt-contrib-jshint": "~0.5.2",
     "grunt-contrib-watch": "~0.4.3",
     "grunt-contrib-uglify": "~0.2.0",
-    "grunt-recess": "~0.4.0",
+    "grunt-recess": "~0.6.0",
     "grunt": "~0.4.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.5.2",
     "grunt-contrib-watch": "~0.4.0",
     "grunt-contrib-uglify": "~0.2.0",
-    "grunt-recess": "~0.4.0"
+    "grunt-recess": "~0.6.0"
   }
 }
