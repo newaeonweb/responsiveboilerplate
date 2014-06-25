@@ -1,6 +1,6 @@
 {
   "name": "responsiveboilerplate",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "main": "css/responsiveboilerplate.min.css",
   "description": "A starting point to responsive web design, lightweight and fast!",
   "license": "MIT",
