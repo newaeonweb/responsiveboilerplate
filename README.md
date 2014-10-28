@@ -34,7 +34,7 @@ Follow the steps...
 > From version 2.3.1 we depend on the latest version of **Node.js**.
 > If you use Ubuntu 13:04 we recommend reading this: [How to install the latest Node.js version using the PPA](http://www.ubuntuupdates.org/ppa/chris_lea_nodejs).
 
-#### This tutorial assumes that you already has the latest version of node.js and npm installed.
+#### This tutorial assumes that you already have the latest version of node.js and npm installed.
 
 ---
 
